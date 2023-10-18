@@ -1,0 +1,325 @@
+@font-face {
+    font-family:Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav *{
+    display: inline-block;
+}
+.container{
+    width: 1470;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head p{
+        width: 1470px;
+        background-color:#B36050 ;
+}
+ header p{
+        color: #F1D3B9;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27.2px;
+        margin:0 auto;
+        padding: 10px 0;
+ }
+ nav a {
+        padding: 20px;
+        color: #B4604D;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.8px;
+        text-transform: capitalize;
+ }
+ nav h1{
+    color: #B4604D;
+    font-family: Roboto;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: capitalize;
+    margin-left: 200px;
+ }
+ .nav-list{
+    list-style-type: none;
+ }
+ .nav-item  a{
+    text-decoration: none;
+    margin-left: 20px;
+   
+ }
+ .nav-item-1 a{
+    padding-left: 500px;
+    text-decoration: none;
+ }
+ .button{
+    width: 1470px;
+    height: 200px;
+    background: #A9AE8D;
+    text-align: center;
+ }
+ .button h2{
+    width: 242px;
+    color: #F6F4EC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-transform: uppercase;
+    margin: 10px auto;
+ }
+ .button h1{
+        width: 456px;
+        color: #F6F4EC;
+        font-family: Roboto;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 64px;
+        margin: 10px auto;
+
+ }
+ .button button{
+        height: 48px;
+        background: #B45F4D;
+        width: 150px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.8px;
+        margin-top: 10px;
+    }
+    .card .container{
+        display: inline-block;
+        margin-left: 70px;
+    }
+    .card h3{
+    width: 382.657px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    }
+.card p {
+    width: 340px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding-top: 10px;
+}
+main h1{
+    width: 197px;
+    color: #B45F4D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.2px;     
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+}
+.img{
+    margin-top:30px ;
+    margin-bottom: 30px ;
+}
+.pad{ 
+    margin-top: -150px;
+    width: 1470px;
+    height: 72px;
+    background-color: #DF9B7A;
+}
+.pad h3{
+    display: inline-block;
+    width: 554.754px;
+    color: #F6F4EC;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.pad p{
+    margin-left: 800px;
+    display: inline-block;
+    width: 81.639px;
+    color: #F6F4EC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+   
+ }
+ .about{
+    display: flex;
+    margin-top: 80px;
+    width: 1470px;
+    background: #F1D3B9;
+    padding:60px;
+    justify-content: space-around;
+ }
+ .about img {
+    height: 700px;
+    padding: 0 30px;   
+    width: 500px; 
+ }
+.cards{
+    text-align: center;
+    display: inline-block;
+    width: 450px;
+    height: 700px;
+    background: #F8F8F8;
+}
+.cards h2{
+    margin: 0 auto;
+    width: 130px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 57.6px;
+}
+.cards p{
+    margin: 0 auto;
+    width: 416px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.4px;
+}
+.pict h2{
+    padding-top: 20px;
+    margin: 0 auto ;
+    width: 208px;
+    color: #000;
+    text-align: center;
+    font-family:roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.2px;
+    text-transform: capitalize;
+}
+.pict img{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+
+.nav-2 {
+    width: 100.535px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.line{
+    width: 1350px;
+    height: 2px;
+    background: #F1D3B9
+}
+.faq h2{
+    color: #C17C6C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px; 
+}
+.faq p{
+    color: #C17C6C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+.faq button{
+    width: 100.78px;
+    height: 40px;
+    color: #B45F4D;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px;
+    text-transform: uppercase;
+    margin-left: 340px;
+}
+.end{
+    margin: 10px auto;
+    color: #C17C6C;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+}
+
+ .links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+ .first a{
+    display: flex;
+    justify-content: space-between; 
+ 
+ }
+ .first a{
+    width: 95.597px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+    padding-left: 30px;
+ }
+ .second a{
+    width: 95.597px;
+    color: #B45F4D;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+ }
+.second a{
+    display: flex;
+    justify-content: space-between;
+}
